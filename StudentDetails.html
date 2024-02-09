@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./StudentDetails.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Info</title>
+  </head>
+  <body>
+    <hr />
+    <h1>Student Details Application</h1>
+    <form action="" method="post">
+      <fieldset>
+        <legend>Details:</legend>
+
+        <div>
+          <label for="Sname">Student Name :</label>
+          <input type="text" id="Sname" placeholder="Student Name" required />
+        </div>
+        <br />
+        <div>
+          <label for="fname">Father Name :</label>
+          <input type="text" id="fname" placeholder="Father Name" required />
+        </div>
+        <br />
+        <div>
+          <label for="mname">Mother Name :</label>
+          <input type="text" id="mname" required placeholder="Mother Name" />
+        </div>
+        <br />
+
+        <div>
+          <label for="age">Student DoB :</label>
+          <input type="date" placeholder="mm/dd/yyyy" id="age" required />
+        </div>
+        <br />
+        <div>
+          <label for="phone">Phone Number :</label>
+          <input
+            type="text"
+            name=""
+            id="phone"
+            required
+            placeholder="1234567890"
+            maxlength="10"
+            minlength="10"
+          />
+        </div>
+        <br />
+        <div>
+          <label for="gender"> Sex :</label>
+
+          <label for="mr">Mr.</label>
+          <input type="radio" id="mr" name="sex" value="mr." />
+
+          <label for="mrs">Mrs.</label>
+          <input type="radio" id="mrs" name="sex" value="mrs." />
+
+          <label for="others">Others.</label>
+          <input type="radio" id="others" name="sex" value="others" />
+        </div>
+        <br />
+        <div>
+          <label for="adress">Address :</label>
+          <input
+            type="text"
+            maxlength="200"
+            placeholder="adress"
+            id="adress"
+            required
+          />
+        </div>
+        <br />
+        <div>
+          <label for="check">Agree</label>
+          <input type="checkbox" required id="check" />
+        </div>
+      </fieldset>
+      <div>
+        <label for="reset"></label>
+        <input type="reset" name="" id="reset" />
+        <label for="submit"></label>
+        <input type="submit" name="" id="submit" />
+        <a class="homescreen" href="./CollegeHomePage.html">Home Screen</a>
+
+      </div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    background-image: url("https://w0.peakpx.com/wallpaper/446/174/HD-wallpaper-end-life-family-father-love-motivation-sad.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-shadow: 2px 1px 8px white;
+    text-align: center;
+}
+form{
+    color: white;
+    
+}
+div{
+    margin: 3px;
+    text-align: center;
+    text-shadow: 2px 1px 7px rgb(254, 254, 254);
+}
+a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 4px;
+    border-radius: 10px ;
+    margin-left: 450px;
+}
+fieldset{
+    margin-bottom: 20px;
+}
